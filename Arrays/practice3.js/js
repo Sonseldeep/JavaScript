@@ -1,0 +1,21 @@
+// create an array to store companies ->
+//"Bloomberg","Microsoft","Uber","Google","IBM","Netflix"
+// remove the first company from array
+// remove uber and add ola in its place
+// add amazon at the end
+let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+// by splice method
+// companies.splice(0, 1); // remove 1st company
+// companies.splice(1, 1, "Ola"); // remove uber and replace with Ola
+// companies.splice(companies.length, 0, "amazon");
+// console.log(companies);
+
+// to remove the 1st company
+companies.shift();
+// remove uber and add ola in its place
+companies.splice(1, 1, "Ola");
+
+// add amazon at the end
+companies.push("amazon");
+
+console.log(companies);

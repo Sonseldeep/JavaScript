@@ -1,0 +1,35 @@
+let fullName = "Sandeep"; // camelCase;
+// console.log(fullName);
+
+// concept of var let and const
+var name = "sandeep";
+var name = "Sangam";
+console.log(name);
+// it throws an error cz name is already decleared;
+
+//let name = "krishna";
+//console.log(name);
+let age = 23;
+age = 78; // in let we can update the value
+// in let we cannt re-declare the variable name
+console.log(age);
+
+// const:  can't be re-declare, update the value
+
+const skill = "programming";
+//skill = "teaching";  we cantt update the value in const
+console.log(skill);
+
+const PI = 3.1415;
+console.log(PI);
+
+let x;
+// const y; here we have to assign any value else it throws an error
+console.log(x);
+
+var s = 10;
+{
+  let s = 20;
+  console.log(s);
+}
+console.log(s);
