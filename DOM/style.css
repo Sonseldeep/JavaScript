@@ -1,0 +1,15 @@
+h1 {
+  color: red;
+  text-decoration: "line-through";
+  background-color: yellowgreen;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+}
+button {
+  background-color: beige;
+  color: blue;
+}
