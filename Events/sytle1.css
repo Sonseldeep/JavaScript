@@ -1,0 +1,12 @@
+div {
+  height: 100px;
+  width: 100px;
+  color: white;
+  border: solid black;
+  display: grid;
+  text-align: center;
+  background-color: blueviolet;
+}
+body {
+  background-color: beige;
+}
